@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/tab_gradient"
+    android:id="@+id/card_layout"
+    android:elevation="5dp"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/music_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/music_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/music_img"
+        android:paddingLeft="3dp"
+        android:text="Song name here"
+        android:textColor="#fff"
+        android:layout_toStartOf="@+id/favorite_layout"/>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/favorite_layout"
+        android:layout_alignParentEnd="true">
+        <!--<ImageView
+            android:id="@+id/favorite"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_click_favorite"
+            android:layout_alignParentEnd="true"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/testing"
+            android:text=""
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
