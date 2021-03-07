@@ -2,7 +2,19 @@
 
 ThrillChaser is a Music player which plays local music files. It categorizes music files in albums. This music player is written in java for android application.
 
-Features of our free music player - mp3 player:
+
+<h3>Security </h3>
+
+* This Application never upload any data. 
+
+
+<h2>You may download the apk by clicking below url
+ </h2>
+ https://tinyurl.com/thrillchaser
+ <br>
+
+
+Features of our ThrillChaser (music player):
 
 * Show all music and audio files in music library.
 
@@ -15,3 +27,6 @@ Features of our free music player - mp3 player:
 *  Search for song: Search by song title and artist name.
 
 *  Show song picture, photo of artist and cover of album.
+
+
+
